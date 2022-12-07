@@ -6,3 +6,4 @@ Era um objetivo pessoal mais que nada pois queria testar minhas habilidades e me
 
 ## Design
 Nos dois primeiros dias começei a buscar plataformas de design para desenhar o site que tinha na cabeça antes de ir direto ao código. Ao final encontrei uma plataforma excelente chamada Figma e criei o seguinte design:
+https://www.figma.com/file/C5fIKug23sf3zg6ebmNe4r/Untitled?node-id=3%3A4&t=TUVNblb2Lea9Pzw7-0
