@@ -176,7 +176,7 @@ nav ul li a{
 #main-principal .img{
     background: url("personagem.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center center;
     width: 30vw;
     height: 381px;
@@ -296,9 +296,28 @@ nav ul li a{
     #main-cards .container{
         width: 100%;
     }
+    #main-principal .img{
+        display: none;
+    }
     .wesley{
-        width: 50px;
-        height: 50px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: url("personagem.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 75px;
+        height: 75px;
+        margin: 10px;
+        opacity: 0.5;
+        transition: 0.3s;
+        z-index: 999;
+        animation: inlustrationAnimate ease-in 2s infinite alternate;
+    }
+    #main-principal .text{
+        width: 100vw;
+        
     }
 }
 
