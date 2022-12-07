@@ -17,14 +17,14 @@ Usei VS code como editor de código, uma extensão para atualizar o navegador au
 
 ## Ao final ficou assim:
 
-![image](https://user-images.githubusercontent.com/104312855/206069177-f85a3488-709d-4f55-a548-f8cbbe604c71.png)
+<img src="https://i.gyazo.com/1622d1b52c21060fd3ad9f28ed327f81.png">
 
 ## Extras
 
 Usei um código pronto de JavaScript para fazer o efeito da neve e densevolvi uma adaptação para dispositivos moveis usando
 
-´
+```
 @media screen and (max-width: 700px){
-
+  
 }
-´
+```
