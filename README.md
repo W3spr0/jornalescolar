@@ -12,4 +12,19 @@ No primeiro dia começei a buscar plataformas de design para desenhar o site que
 
 No segundo dia "Meti a mão no código"
 Usei VS code como editor de código, uma extensão para atualizar o navegador automaticamente cada vez que faça uma alteração, ativei o dracula mode e codifiquei em HTML e CSS por varias horas
+
 <img src="https://i.gyazo.com/3a19765ab70a220dde3f1befb17741ba.png">
+
+## Ao final ficou assim:
+
+![image](https://user-images.githubusercontent.com/104312855/206069177-f85a3488-709d-4f55-a548-f8cbbe604c71.png)
+
+## Extras
+
+Usei um código pronto de JavaScript para fazer o efeito da neve e densevolvi uma adaptação para dispositivos moveis usando
+
+´
+@media screen and (max-width: 700px){
+
+}
+´
