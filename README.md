@@ -5,7 +5,7 @@ A pagina oficial do jornal escolar Leonor Castellano já existia a um bom tempo,
 Era um objetivo pessoal mais que nada pois queria testar minhas habilidades e melhorarlas fazendo alguma pagina nova com mecanicas que nunca tinha usado e em apenas 5 dias.
 
 ## Design
-Nos dois primeiros dias começei a buscar plataformas de design para desenhar o site que tinha na cabeça antes de ir direto ao código. Ao final encontrei uma plataforma excelente chamada Figma e criei o seguinte design:
+No primeiro dia começei a buscar plataformas de design para desenhar o site que tinha na cabeça antes de ir direto ao código. Ao final encontrei uma plataforma excelente chamada Figma e criei o seguinte design:
 [Meu projeto no figma](https://www.figma.com/proto/C5fIKug23sf3zg6ebmNe4r/Untitled?node-id=3%3A4&scaling=min-zoom&page-id=0%3A1)
 
 <img src="https://i.gyazo.com/1c7fd0a71cd8064cf9f6a969a5209e74.png">
