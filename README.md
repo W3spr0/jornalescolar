@@ -11,4 +11,5 @@ No primeiro dia começei a buscar plataformas de design para desenhar o site que
 <img src="https://i.gyazo.com/1c7fd0a71cd8064cf9f6a969a5209e74.png">
 
 No segundo dia "Meti a mão no código"
-<img src="https://i.gyazo.com/3a19765ab70a220dde3f1befb17741ba.png"?
+Usei VS code como editor de código, uma extensão para atualizar o navegador automaticamente cada vez que faça uma alteração, ativei o dracula mode e codifiquei em HTML e CSS por varias horas
+<img src="https://i.gyazo.com/3a19765ab70a220dde3f1befb17741ba.png">
