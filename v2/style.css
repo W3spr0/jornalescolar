@@ -134,7 +134,7 @@ nav ul li a{
 
 #main-principal .banner .logo{
     position: absolute;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHWBfeHY-mti5YccYbkrcf8vvrclYxp3-R0XTyXYq72mMYn0mFjEFeNhTo2xRLp-mRZI&usqp=CAU") top top;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHWBfeHY-mti5YccYbkrcf8vvrclYxp3-R0XTyXYq72mMYn0mFjEFeNhTo2xRLp-mRZI&usqp=CAU") center center;
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center center;
