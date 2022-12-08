@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap' );
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*overflow: hidden; */
+    background: linear-gradient(90deg, #F2F2F2 0%, #F2F2F2 100%);
+}
+
+nav{
+    z-index: 999;
+    top: 0;
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 45px;
+    margin-bottom: 900px;
+    color: white;
+    background:darkred;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+nav div{
+    height: 100%;
+    margin: auto;
+    display:flex;
+}
+
+nav div img{
+    height: 100%;
+    width: auto;
+}
+nav div h2{
+    display: flex;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.065em;
+    }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+
+nav li{
+    width: 100%;
+}
+
+nav ul li a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.conteudos{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.esquerda{
+    order: -1;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+    width: 20vw;
+    float: left;
+
+}
+#principal{
+    order: 1;
+}
+.direita{
+    order: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+    width: 20vw;
+
+}
+
+.lateral .item{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align:center;
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lateral .item h2{
+    color: darkred;
+}
+.lateral .item img{
+    margin: 10px auto;
+    width: 75%;
+}
+
+.lateral .item video{
+    width: 80%;
+}
+
+#main-principal {
+    width: 60vw;
+    margin: 90px auto;
+    margin-bottom: 10px;
+}
+
+#main-principal .banner{
+    background: url("banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    height: 200px;
+    min-width: 100%;
+}
+
+#main-principal .banner .logo{
+    position: absolute;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHWBfeHY-mti5YccYbkrcf8vvrclYxp3-R0XTyXYq72mMYn0mFjEFeNhTo2xRLp-mRZI&usqp=CAU") top top;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    top: 213px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+#main-principal .introduction{
+    background: #FFFFFF;
+    margin-top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 50px 33px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#main-principal .text{
+    width: 30vw;
+}
+#main-principal .text .coment{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(200,200,200,0.3);
+    text-align: center;
+    padding: 5px;
+}
+
+.coment a{
+    text-decoration: none;
+    font-weight:bold;
+    color: darkred;
+}
+
+#main-principal .img{
+    background: url("personagem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 30vw;
+    height: 381px;
+    overflow: hidden;
+    animation: inlustrationAnimate ease-in 2s infinite alternate;
+}
+
+#main-cards .container{
+    margin: 30px auto;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+#main-cards .container #title-noticias{
+    font-family: inter;
+    margin: auto;
+    text-align: center;
+}
+
+#main-cards .container .card{
+    padding: 20px;
+    width: 50vw;
+    margin: auto;
+    min-width: 200px;
+    margin-bottom: 30px;
+
+}
+
+
+#main-cards .container .card a{
+    color:darkred;
+    text-decoration: none;
+    margin:0;
+}
+
+#main-cards .container .card{
+    display: flex;
+    text-align: center;
+    font-family: inter;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    text-align: initial;
+}
+
+#main-cards .container .card img{
+    margin-right:20px;
+    width: 25%;
+    object-fit: cover;
+}
+
+#main-cards .container .card .info{
+    width: 50%;
+    display: inline-block;
+}
+
+
+
+.wesley{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: url("https://avatars.githubusercontent.com/u/104312855?v=4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 5vw;
+    height: 5vw;
+    margin: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.wesley:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 700px){
+
+    nav ul{
+        display: none;
+    }
+    .lateral{
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+    }
+    
+    #main-principal{
+        width: 100%;
+    }
+    .conteudos{
+        display: block;
+        width: 90%;
+        margin: auto;
+        justify-content: space-around;
+    }
+    #main-principal .banner{
+        height: auto;
+        padding: 50px 0;
+        margin-bottom: 10;
+    }
+    #main-principal .banner .logo{
+        display: none;
+    }
+    #main-principal .calendario{
+        padding: 2rem 33px;
+    }
+    #main-cards .container{
+        width: 100%;
+    }
+    #main-principal .img{
+        display: none;
+    }
+    #main-cards .container .card{
+        width: auto;
+    }
+    #main-cards .container .card .info{
+        width: 100%;
+    }
+    
+    #main-cards .container #title-noticias{
+        text-align: initial;
+    }
+    .wesley{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: url("personagem.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 75px;
+        height: 75px;
+        margin: 10px;
+        opacity: 0.5;
+        transition: 0.3s;
+        z-index: 999;
+        animation: inlustrationAnimate ease-in 2s infinite alternate;
+    }
+    #main-principal .text{
+        width: 100vw;
+        text-align:center;
+    }
+}
+
+@keyframes inlustrationAnimate{
+    0%{
+        transform: translateY(10px);
+    }100%{
+        transform: translateY(1px);
+    }
+}
